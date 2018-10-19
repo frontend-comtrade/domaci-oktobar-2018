@@ -1,0 +1,85 @@
+# IF
+
+1.// Ova linija vraća random broj
+var randomBroj=Math.ceil(Math.random() * 10);
+Napišite kod koji će ako je broj paran ispisati poruku "Broj je paran"
+
+2. Dopunite zadataka jedan tako da ako je broj neparan on ispiše "Broj je neparan"
+
+
+3.
+Za kreirani random broj pomoću :var randomBroj=Math.ceil(Math.random() * 10);
+Napišite u zavisnosti od toga koji je broj vraćen poruku:
+  - broj je manji od 3
+  - broj je jednak 3
+  - broj je veći od 3
+
+4. Program pita "Koliko imaš godina?"
+Ako je osoba punoletna treba da kažemo "Dozvoljen pristup" u protivnom treba da kažemo "Zabranjen pristup"
+
+5.
+Program pita "kako se zoveš?" (pomoću prompt)
+Kada upišemo ime on odgovara "Zdravo Zorane!" u slučaju da je Zoran popunjavao.
+Napravite da program radi tačno za sledeća imena: Igor, Uroš, Mia, Sanja, Miloš, Marko, Žarko, Tadija, Mitar
+
+6. Uradite kod tako da za tekući dan ispiše poruku: "Danas je Sreda" ako je danas sreda.
+var datum = new Date();
+var danUSedmici = datum.getDay(); // ovo vraća broj od 0 do 6, 0 za nedelju, 1 za ponedeljak, 2 za utorak...
+
+7. Napišite da program vraća poruku Dobro jutro, dobar dan, dobro veče - u zavisnosti u koje doba dana je pozvan
+var datum = new Date();
+var sat = datum.getHour();
+
+# FOR
+ 8. Napravite ul sa li tagovima koji sadrže brojeve od 200 do 300
+
+ 9. Karte - ispišite sve dvojke.
+
+10. Ispišite sve karte
+
+11. Ispišite sve karte koje imaju srce na sebi
+
+12. Napišite program koji će vratiti random znak za karte
+
+13. Napišite program koji će vratiti random 4 karte
+
+14. Napišite program koji će u tabliću reći da li je jedna  karta jača od druge
+
+15. Napravite select listu za izbor godina od 1900 do 2018
+
+16. Nacrtajte tabelu u html-u pomoću javascripta
+
+17. Napravite kalendar za mesec koji ima 31 dan i prvi dan u mesecu je ponedeljak
+
+18. Napravite kalendar za mesec koji ima 31 dan i prvi dan u mesecu je sreda
+
+19. Napišite program koji kreira random boju u formatu rgb()
+
+# While
+20. Ispišite brojeve od 1 do 10
+
+21. Vraćamo random broj od 1 do 3
+var randomBroj=Math.ceil(Math.random() * 3);
+Ispisujte poruku "Pogodi broj" - dokle god korisnik ne pogodi broj koji je korisnik zamislio
+Broj treba da je isti sve vreme.
+
+22. Promenite program tako da kompjuter posle svaki put zamišlja nov broj
+
+23. Igrica pogodi broj
+
+24. Igrica puzle
+
+25. Ispišite tablicu množenja u select listi
+
+26. Ispišite tablicu množenja u tabeli
+
+27. Napravite kalendar za celu godinu
+
+
+
+
+
+
+
+
+
