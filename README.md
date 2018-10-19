@@ -18,3 +18,4 @@ Pored ovoga treba da se urade i testovi:
 - Funkcije - test sa časa da se dobije 100%
 
 
+# git test
